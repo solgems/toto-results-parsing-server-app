@@ -22,5 +22,5 @@ get '/:drawNo' do
   		i != results_array.length - 1 ? results_string += e_number + ' ' : results_string += e_number
   	end
 
-  	p results_string
+  	results_string
 end
