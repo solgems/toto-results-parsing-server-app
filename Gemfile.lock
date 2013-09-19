@@ -1,14 +1,31 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    addressable (2.3.5)
     daemons (1.1.9)
     eventmachine (1.0.3)
+    excon (0.25.3)
+    heroku (2.41.0)
+      heroku-api (~> 0.3.7)
+      launchy (>= 0.3.2)
+      netrc (~> 0.7.7)
+      rest-client (~> 1.6.1)
+      rubyzip
+    heroku-api (0.3.15)
+      excon (~> 0.25.1)
+    launchy (2.3.0)
+      addressable (~> 2.3)
+    mime-types (1.25)
     mini_portile (0.5.1)
+    netrc (0.7.7)
     nokogiri (1.6.0)
       mini_portile (~> 0.5.0)
     rack (1.5.2)
     rack-protection (1.5.0)
       rack
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    rubyzip (1.0.0)
     shotgun (0.9)
       rack (>= 1.0)
     sinatra (1.4.3)
@@ -25,6 +42,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  heroku
   nokogiri
   shotgun
   sinatra

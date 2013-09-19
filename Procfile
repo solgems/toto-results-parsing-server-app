@@ -1,0 +1,1 @@
+web: bundle exec ruby getResults.rb -p $PORT
